@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(u.jpg.jpg);
+  background-size: cover;
+}
+
+.container {
+  width: 360px;
+  height: 400px;
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+  margin: 8% auto;
+  overflow: hidden;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.container form {
+  width: 280px;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  transition: 0.5s;
+}
+
+form input {
+  width: 100%;
+  padding: 10px 5px;
+  margin: 5px 0;
+  border: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+
+::placeholder {
+  color: #777;
+}
+
+.btn-box {
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+form button {
+  width: 110px;
+  height: 35px;
+  border-radius: 50px;
+  margin: 0 10px;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  color: white;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+#form2 {
+  left: 450px;
+}
+
+#form3 {
+  left: 450px;
+}
+
+.step-row {
+  width: 360px;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 -1px 5px -1px black;
+  position: relative;
+}
+
+.step-col {
+  width: 120px;
+  text-align: center;
+  position: relative;
+}
+
+#progress {
+  position: absolute;
+  width: 120px;
+  height: 100%;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  transition: 1s;
+}
+
+#progress::after {
+  content: "";
+  height: 0;
+  width: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  position: absolute;
+  right: -20px;
+  top: 0;
+  border-left: 20px solid #ffad06;
+}
+
+.h3 {
+  text-align: center;
+  margin-bottom: 3px;
+  margin-top: 1px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 40px;
+  color: rgb(45, 29, 46);
+}
+
+p {
+  text-align: center;
+  font-family: arial;
+  padding-top: 20px;
+}
+
+.content {
+  font-family: arial;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.para1 {
+  text-align: center;
+  font-family: arial;
+  font-style: bold;
+}
+
+.start {
+  text-align: center;
+  text-decoration: none;
+  font-family: arial;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 3%;
+}
+
+.form {
+  width: 200px;
+  height: 250px;
+  padding: 25px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 30px maxlength="100";
+}
+
+.body1 {
+  background-image: url(i.jpg);
+  background-size: cover;
+}
+
+.pa {
+  outline: none;
+}
