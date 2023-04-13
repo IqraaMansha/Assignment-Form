@@ -7,6 +7,7 @@
 body {
   background-image: url(u.jpg.jpg);
   background-size: cover;
+
 }
 
 .container {
@@ -17,6 +18,7 @@ body {
   position: relative;
   margin: 8% auto;
   overflow: hidden;
+
 }
 
 h3 {
@@ -66,6 +68,7 @@ form button {
 
 #form2 {
   left: 450px;
+  
 }
 
 #form3 {
