@@ -42,16 +42,19 @@ form input {
   border-bottom: 1px solid #999;
   outline: none;
   background: transparent;
+  
 }
 
 ::placeholder {
   color: #777;
+
 }
 
 .btn-box {
   width: 100%;
   margin: 30px auto;
   text-align: center;
+
 }
 
 form button {
@@ -64,6 +67,7 @@ form button {
   border: 0;
   outline: none;
   cursor: pointer;
+
 }
 
 #form2 {
