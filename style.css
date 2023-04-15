@@ -47,7 +47,6 @@ form input {
 
 ::placeholder {
   color: #777;
-
 }
 
 .btn-box {
@@ -150,6 +149,7 @@ p {
   text-align: center;
   text-decoration: none;
   font-family: arial;
+  
 }
 
 .center {
